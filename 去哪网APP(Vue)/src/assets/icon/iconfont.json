@@ -1,0 +1,58 @@
+{
+  "id": "3359798",
+  "name": "去哪网",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "688062",
+      "name": "地球 全球",
+      "font_class": "diqiuquanqiu",
+      "unicode": "e76c",
+      "unicode_decimal": 59244
+    },
+    {
+      "icon_id": "924704",
+      "name": "热度",
+      "font_class": "redu",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "1120980",
+      "name": "右箭头",
+      "font_class": "youjiantou1",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "2076194",
+      "name": "喜欢",
+      "font_class": "xihuan",
+      "unicode": "e86f",
+      "unicode_decimal": 59503
+    },
+    {
+      "icon_id": "5387693",
+      "name": "地图_定位",
+      "font_class": "ditu_dingwei",
+      "unicode": "eb33",
+      "unicode_decimal": 60211
+    },
+    {
+      "icon_id": "6119218",
+      "name": "下-三角",
+      "font_class": "below-s",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "20000266",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}
