@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>万魔</title>
+    <script src="../lib/jquery-3.6.0.js"></script>
+    <script src="../lib/flexible.js"></script>
+    <script src="https://unpkg.com/@better-scroll/core@latest/dist/core.min.js"></script>
+    <script src="../lib/lazyLoad.js"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/1more.css">
+    <link rel="stylesheet" href="../lib/swiper5.4.5/swiper.min.css">
+</head>
+<body>
+    <div class="wrapper" >
+        <div class="content">
+            <header>
+                <div class="menu">
+                    <img src="../img/topleft.png" alt="" class="">
+                    <ul class="menu-list">
+                        <li class="menu-border chanpin">
+                            <p>产品</p>
+                            <span>
+                                <p></p>
+                                <p></p>
+                            </span>
+                        </li>
+                        <li class="menu-border">
+                            <p>咨讯中心</p>
+                        </li>
+                        <li class="menu-border">
+                            <p>技术支持</p>
+                        </li>
+                        <li class="menu-border">
+                            <p>资源下载</p>
+                        </li>
+                        <li class="menu-border">
+                            <p>体验店</p>
+                        </li>
+                        <li class="menu-border">
+                            <p>万魔豆商城</p>
+                        </li>
+                        <li class="menu-border">
+                            <p>社区</p>
+                        </li>
+                        <li>
+                            <p><img class="user" src="../img/denglu.png" alt=""></p>
+                            <span class="sign">登录</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <img src="../img/logo.png" alt="">
+                </div>
+                <div class="shop">
+                    <img src="../img/topright.png" alt="">
+                </div>
+            </header>
+            <section>
+                <!-- swiper -->
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="../img/d076e36f973049b9bcbde72237f8b2db.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/6b538b38f1a34f239d960b4f5d7e6652.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/e611af1b627e4d4da43dc465bba4f75b.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="../img/2c4324114de1449e820dd825182d0dcf.jpg" alt=""></div>
+                    </div>
+                    <!-- 如果需要分页器 -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <!-- video -->
+                <div class="video">
+                    <img class="video-img" src="../img/ebd322585fc645ad87ab813e88dce5cf.jpg" alt="">
+                    <img class="play" src="../img/BF.png" alt="">
+                    <video>
+                        <source src="../video/1more_0224_20210304.mp4" type="video/mp4">
+                    </video>
+                    <p>关闭</p>
+                </div>
+                <!-- content -->
+                <div class="img-box">
+                    <div class="img-text">
+                        <p>高颜值 实力派</p>
+                        <h3>1MORE Stylish 时尚真无线耳机</h3>
+                        <span>真无线 Bluetooth®  5 | 高通芯片稳定如有线 </span>
+                    </div>
+                    <img class="img lazyload" data-original="../img/8cf182b882494da3a6685734953f5d45.jpg" alt="">
+                </div>
+                <div class="img-box">
+                    <div class="img-text">
+                        <p>不一样的气质</p>
+                        <h3>1MORE Stylish 双动圈颈挂式蓝牙耳机</h3>
+                        <span>“石墨烯＋金属钛”双动圈单元 </span>
+                        <span>数字麦克风，清晰沟通不间断 </span>
+                    </div>
+                    <img class="img lazyload" data-original="../img/6b62c02c74134a17a607c744b48d7cd8.jpg" alt="">
+                </div>
+            </section>
+            <!-- footer -->
+            <footer>
+                <ul class="list">
+                    <li class="border"><a href="">关于我们</a></li>
+                    <li class="border">
+                        <p class="guznzhu">
+                            <a href="">关注我们</a>
+                            <span>＋</span>
+                        </p>
+                        <p class="xlwb">新浪微博</p>
+                    </li>
+                    <li><a href="">客服热线</a></li>
+                </ul>
+                <div class="end">
+                    <div class="telephone">
+                        <p>400-992-0909</p>
+                        <p>0755-86574095</p>
+                    </div>
+                    <div class="button">
+                        <h3>在线客服</h3>
+                        <h2>
+                            <ul>
+                                <li>Russia</li>
+                                <li>India</li>
+                                <li>United States</li>
+                                <li>Europe</li>
+                                <li>Japan</li>
+                                <li>Korea</li>
+                                <li>global</li>
+                            </ul>
+                            <p>Select Region <img src="../img/jiantou.png" alt=""></p>
+                        </h2>
+                    </div>
+                    <div class="end-text">
+                        ©2013-2022 万魔声学股份有限公司 版权所有 粤ICP备13074094号
+    万魔声学股份有限公司对本网站所有图片与资料拥有所有权，如未经允许盗链或下载使用，必追究相关法律责任。
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="../lib/swiper5.4.5/swiper.min.js"></script>
+    <script src="../js/1more.js"></script>
+    <script>
+    //lazyload
+    $(function() {
+        $("img.lazyload").lazyload();
+    });
+    // swiper
+    var mySwiper = new Swiper ('.swiper', {
+    direction: 'horizontal', // 垂直切换选项
+    loop: true, // 循环模式选项
+    autoplay: true,
+    
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  })        
+    // batter-scroll
+    $(function () {
+        this.scroll.refresh()
+        let wrapper= document.querySelector('.wrapper')
+        let bs = new BScroll(wrapper, {
+            scrollY: true,
+            click: true,
+            startY: 0,
+            startX: 0,
+            freeScroll: true,
+            bounce: true,
+            momentum: true,
+        })
+    })
+    </script>
+</body>
+</html>
